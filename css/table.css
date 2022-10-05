@@ -1,15 +1,17 @@
 td {
     border: 1px solid;
 }
+
 table{
     border-collapse: collapse;
-    background-color: rgba(242, 181, 181, 0.6);
+    background-color: rgba(201,201,201);
 }
 
 table, th{
     border: 3px solid;
     text-align: left;
 }
+
 th,td {
     vertical-align: center;
     padding: 10px;
@@ -20,16 +22,17 @@ td, .time{
 }
 
 tr:nth-child(even){
-    background-color: rgba(180, 138, 138, 0.71);
+    background-color: rgb(151, 151, 151);
 }
-.prednaska{
+
+.lecture{
     background-color: rgb(89, 131, 104);
 }
 
-.cvicenie{
+.seminar{
     background-color: rgb(187, 103, 49);
 }
 
-.telesna{
+.sport{
     background-color: rgb(97,125,42);
 }
