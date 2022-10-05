@@ -1,0 +1,35 @@
+td {
+    border: 1px solid;
+}
+table{
+    border-collapse: collapse;
+    background-color: rgba(242, 181, 181, 0.6);
+}
+
+table, th{
+    border: 3px solid;
+    text-align: left;
+}
+th,td {
+    vertical-align: center;
+    padding: 10px;
+}
+
+td, .time{
+    text-align: center;
+}
+
+tr:nth-child(even){
+    background-color: rgba(180, 138, 138, 0.71);
+}
+.prednaska{
+    background-color: rgb(89, 131, 104);
+}
+
+.cvicenie{
+    background-color: rgb(187, 103, 49);
+}
+
+.telesna{
+    background-color: rgb(97,125,42);
+}

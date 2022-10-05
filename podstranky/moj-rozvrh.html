@@ -6,6 +6,10 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
     <title>Môj rozvrh</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/table.css">
 </head>
 <body>
 
@@ -24,84 +28,101 @@
     </ul>
 </nav>
 
+<div class="core">
+    <section>
+        <hgroup>
+            <h2>Môj rozvrh</h2>
+        </hgroup>
+        <div>
+            <table>
+                <tbody>
+                <tr>
+                    <th>Deň</th>
+                    <th class="time">8:00 - 8:50</th>
+                    <th class="time">9:00 - 9:50</th>
+                    <th class="time">10:00 - 10:50</th>
+                    <th class="time">11:00 - 11:50</th>
+                    <th class="time">12:00 - 12:50</th>
+                    <th class="time">13:00 - 13:50</th>
+                    <th class="time">14:00 - 14:50</th>
+                    <th class="time">15:00 - 15:50</th>
+                    <th class="time">16:00 - 16:50</th>
 
-<section>
-    <hgroup>
-        <h2>Môj rozvrh</h2>
-    </hgroup>
-    <table>
-        <tbody>
-        <tr>
-            <th>Deň</th>
-            <th>8:00 - 8:50</th>
-            <th>9:00 - 9:50</th>
-            <th>10:00 - 10:50</th>
-            <th>11:00 - 11:50</th>
-            <th>12:00 - 12:50</th>
-            <th>13:00 - 13:50</th>
-            <th>14:00 - 14:50</th>
-            <th>15:00 - 15:50</th>
-            <th>16:00 - 16:50</th>
+                </tr>
+                <tr>
+                    <th>Pondelok</th>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
 
-        </tr>
-        <tr>
-            <th>Pondelok</th>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+                </tr>
+                <tr>
+                    <th>Utorok</th>
+                    <td colspan="2" class="cvicenie">Analýza a zložitosť algoritmov</td>
+                    <td colspan="2" class="prednaska">Operačné systémy</td>
+                    <td>&nbsp;</td>
+                    <td colspan="2" class="prednaska">Softvérové inžinierstvo</td>
+                    <td colspan="2" class="prednaska">Webové technológie 1</td>
+                </tr>
+                <tr>
+                    <th>Streda</th>
+                    <td>&nbsp;</td>
+                    <td class="prednaska">Softvérové inžinierstvo</td>
+                    <td class="cvicenie">Softvérové inžinierstvo</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td colspan="2" class="prednaska">Analýza a zložitosť algoritmov</td>
+                    <td colspan="2" class="prednaska">Webové technológie 1</td>
 
-        </tr>
-        <tr>
-            <th>Utorok</th>
-            <td colspan="2">Analýza a zložitosť algoritmov</td>
-            <td colspan="2">Operačné systémy</td>
-            <td></td>
-            <td colspan="2">Softvérové inžinierstvo</td>
-            <td colspan="2">Webové technológie 1</td>
-        </tr>
-        <tr>
-            <th>Streda</th>
-            <td></td>
-            <td>Softvérové inžinierstvo</td>
-            <td>Softvérové inžinierstvo</td>
-            <td></td>
-            <td></td>
-            <td colspan="2">Analýza a zložitosť algoritmov</td>
-            <td colspan="2">Webové technológie 1</td>
+                </tr>
+                <tr>
+                    <th>Štvrtok</th>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td colspan="2" class="cvicenie">Webové technológie 1</td>
+                    <td class="prednaska">Operačné systémy</td>
+                    <td class="cvicenie">Operačné systémy</td>
+                    <td>&nbsp;</td>
+                    <td colspan="2" class="telesna">Telesná kultúra 5</td>
+                </tr>
+                <tr>
+                    <th>Piatok</th>
+                    <td>&nbsp;</td>
+                    <td class="cvicenie">Analýza a zložitosť algoritmov</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                </tbody>
+            </table>
+            <p>Legenda: </p>
+            <table>
+                <tr><td class="prednaska"> presnáška </td></tr>
+                <tr><td class="cvicenie"> cvičenie </td></tr>
+                <tr><td class="telesna"> telesná kultúra </td></tr>
+            </table>
+        </div>
+    </section>
+</div>
 
-        </tr>
-        <tr>
-            <th>Štvrtok</th>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <th>Piatok</th>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        </tbody>
-    </table>
-</section>
+<footer>
+    <p>Autor: Samuel Gibala</p>
+    <div>
+        <a href="https://www.facebook.com/samkog" class="fa fa-facebook" target="_blank"></a>
+        <a href="https://www.instagram.com/samino13/" class="fa fa-instagram" target="_blank"></a>
+        <a href="https://www.linkedin.com/in/samuel-gibala-695080229" class="fa fa-linkedin" target="_blank"></a>
+    </div>
+</footer>
 
 </body>
 </html>
