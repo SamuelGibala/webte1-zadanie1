@@ -1,8 +1,5 @@
 .map{
     position: relative;
-    width: 70%;
-    margin: 0 15%;
-    clear: both;
 }
 
 .map img{
@@ -15,41 +12,109 @@
     position: absolute;
     width: 25px;
     height: 25px;
-    top: 75%;
+    top: 79%;
     left: 65%;
     border-radius: 50px;
     background-color: red;
 }
 
-.marker2{
-    top: 10%;
-    left: 10%;
-}
-
-.marker3{
-    top: 20%;
-    left: 20%;
-}
-
-.marker4{
-    top: 30%;
-    left: 30%;
-}
-
-.marker5{
-    top: 40%;
-    left: 40%;
-}
-
-.text{
+.map .marker2{
     position: absolute;
-    visibility: hidden;
-    border: black 2px solid;
-    top: 75%;
+    width: 25px;
+    height: 25px;
+    top: 39%;
+    left: 76%;
+    border-radius: 50px;
+    background-color: red;
+}
+
+.map .marker3{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 60%;
+    left: 69%;
+    border-radius: 50px;
+    background-color: red;
+}
+
+.map .marker4{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 37%;
+    left: 23%;
+    border-radius: 50px;
+    background-color: red;
+}
+
+.map .marker5{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 48%;
+    left: 44%;
+    border-radius: 50px;
+    background-color: red;
+}
+
+
+.text1{
+    position: absolute;
+    top: 65%;
     left: 65%;
+    width: 20%;
+    padding: 5px;
+    border: black 2px solid;
     background-color: white;
 }
 
-.marker1:hover + .text{
+.text2{
+    position: absolute;
+    top: 39%;
+    left: 76%;
+    padding: 5px;
+    width: 20%;
+    border: black 2px solid;
+    background-color: white;
+}
+
+.text3{
+    position: absolute;
+    top: 60%;
+    left: 69%;
+    padding: 5px;
+    width: 20%;
+    border: black 2px solid;
+    background-color: white;
+}
+
+.text4{
+    position: absolute;
+    top: 37%;
+    left: 23%;
+    padding: 5px;
+    width: 20%;
+    border: black 2px solid;
+    background-color: white;
+}
+
+.text5{
+    position: absolute;
+    top: 48%;
+    left: 44%;
+    padding: 5px;
+    width: 20%;
+    border: black 2px solid;
+    background-color: white;
+}
+
+.text{
+    visibility: hidden;
+
+}
+
+
+.marker:hover + .text{
     visibility: visible;
 }
