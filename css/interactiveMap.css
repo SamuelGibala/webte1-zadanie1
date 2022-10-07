@@ -1,0 +1,55 @@
+.map{
+    position: relative;
+    width: 70%;
+    margin: 0 15%;
+    clear: both;
+}
+
+.map img{
+    width: 100%;
+    height: auto;
+    clear: both;
+}
+
+.map .marker1{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 75%;
+    left: 65%;
+    border-radius: 50px;
+    background-color: red;
+}
+
+.marker2{
+    top: 10%;
+    left: 10%;
+}
+
+.marker3{
+    top: 20%;
+    left: 20%;
+}
+
+.marker4{
+    top: 30%;
+    left: 30%;
+}
+
+.marker5{
+    top: 40%;
+    left: 40%;
+}
+
+.text{
+    position: absolute;
+    visibility: hidden;
+    border: black 2px solid;
+    top: 75%;
+    left: 65%;
+    background-color: white;
+}
+
+.marker1:hover + .text{
+    visibility: visible;
+}
