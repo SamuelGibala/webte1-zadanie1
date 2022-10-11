@@ -118,3 +118,54 @@
 .marker:hover + .text{
     visibility: visible;
 }
+.content {
+    width: 100%;
+}
+.tooltip {
+    visibility: hidden;
+    min-width: 250px;
+    min-height: 250px;
+    background-color: #97d097;
+    font-size: 15px;
+    text-align: center;
+}
+.marker {
+    width: 0;
+    height: 0;
+    border: 15px solid rgb(255, 0, 0);
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+}
+.marker:hover .tooltip  {
+    visibility: visible;
+    position: relative;
+    left: -100px;
+    top: -120px;
+    z-index: 1;
+}
+
+#pribylina{
+    left: 75%;
+    top: 40%;
+}
+
+#vavrisovo{
+    left: 70%;
+    top: 55%;
+}
+
+#liptovskyHradok{
+    left: 65%;
+    top: 70%;
+}
+
+#liptovskyMikulas{
+    left: 47%;
+    top: 49%;
+}
+
+#havranok{
+    left: 24%;
+    top: 35%;
+}
